@@ -37,4 +37,4 @@
 - Select a vaient:- **JavaScript**
 - npm install or npm i
 - Then Run **npm run dev**
-- Open any browser & run :- [Google](**http://localhost:5173**)
+- Open any browser & run :- [Google](http://localhost:5173)
