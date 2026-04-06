@@ -78,10 +78,10 @@ const element = <h1>Hello, JSX!</h1>;
  const Greeting = ()={
     return <h1>Hello, Suman! </h1>;
     }
-    Export default Greeting
-    ```
+    Export default Greeting;
+```
 ---
-/*Class Component (Or older style)*/
+- Class Component (Or older style)
   ```jsx
   import React{component} from 'react';
   class Greeting extends component{
@@ -89,4 +89,5 @@ const element = <h1>Hello, JSX!</h1>;
   }
   Export default Greeting;
   ```
+
 
