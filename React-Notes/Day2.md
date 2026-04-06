@@ -18,3 +18,43 @@
 4. **Arrays / Strings** → any type of data  
 5. **State** → dynamic data from parent component  
   
+# Code Implementation
+## App,jsx:- {**Parent Component**}
+```jsx
+import React from "React";
+import Person form "./Person";
+const App = ()=>{
+    return(
+        <>
+        <Person name = "Suman" age= {24} salary={10000}/>
+        <Person name= "Superman" age = {100} Salary={500}/>
+        <Person name = "spiderman" age= {10} Salary= {100}/>
+        </>
+    )
+}
+export default App
+``` 
+/* These are the props {Property}
+
+## Person.jsx:-{**Child Component**}
+```jsx
+import React from "react"; 
+  const Person = (props)=>{
+    return(
+        <>
+        <h1> My Name = {props.name}</h1>
+        <h2> My age = {props.age} </h2>
+        <h3> My Salary = {props.salary}</h3>
+        </>
+    )
+}
+export default Person;
+```
+
+# output
+ |My Name = Suman | My Name = Superman | My Name = spiderman
+ :---  :---: ---:
+ |My Age = 24|My Age = 100 | My Age = 10
+ :--- :---: ---:
+ |My Salary = 10000 | My Salary = 500 | My Salary = 100
+ :--- :---: ---:
