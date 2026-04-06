@@ -72,14 +72,16 @@ const element = <h1>Hello, JSX!</h1>;
  - A component in React is a JavaSript Function or class that optionally accept props & return a React element that describe how a section at the UI should appear
 
  ### 2. Type of Components:- 
+ - Functional Component
  ```jsx
  imprt React from 'react';
- const Creating = ()={
+ const Greeting = ()={
     return <h1>Hello, Suman! </h1>;
-    }```
-
-  - Export default Greeting
-  - Class Component (Or older style)
+    }
+    Export default Greeting
+    ```
+---
+/*Class Component (Or older style)*/
   ```jsx
   import React{component} from 'react';
   class Greeting extends component{
