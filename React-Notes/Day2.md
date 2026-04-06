@@ -52,9 +52,9 @@ export default Person;
 ```
 
 # output
- |My Name = Suman | My Name = Superman | My Name = spiderman
- :---  :---: ---:
- |My Age = 24|My Age = 100 | My Age = 10
- :--- :---: ---:
- |My Salary = 10000 | My Salary = 500 | My Salary = 100
- :--- :---: ---:
+# Output
+
+| My Name = Suman | My Name = Superman | My Name = Spiderman |
+|----------------|--------------------|---------------------|
+| My Age = 24    | My Age = 100       | My Age = 10         |
+| My Salary = 10000 | My Salary = 500 | My Salary = 100     |
