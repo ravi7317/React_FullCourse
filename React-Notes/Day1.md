@@ -37,4 +37,12 @@
 - Select a vaient:- **JavaScript**
 - npm install or npm i
 - Then Run **npm run dev**
-- Open any browser & run :- [Google](http://localhost:5173)
+- Open any browser & run :- ***http://localhost:5173***
+
+# 4. JSX;-
+- Jsx stand for JavaScript XML{***Extensible Markup Language***}. It is a syntax extension for JavaScript that allow you to write **HTML**-like code directly within JavaScript
+
+## 1. HTML-Like Syntax:-
+```jsx
+const element = <h1>Hello, JSX!<h1>;
+```
