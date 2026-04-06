@@ -44,5 +44,21 @@
 
 ## 1. HTML-Like Syntax:-
 ```jsx
-const element = <h1>Hello, JSX!<h1>;
+const element = <h1>Hello, JSX!</h1>;
 ```
+## 2. Embedding Expression:- 
+ - It allow embedding javaScript Expression within curly bracket **{}**. This enable dynamic content rendering & logic eithin jsx.
+ ```jsx
+ const name = 'Suman';
+ const element = <h1> Hello, {name} !</h1>
+ ```
+ ## 3. Babel Compilation
+ - JSX is not directly understand by browser so it need to be tanspiled into regular javaScript using babel which convert JSX into **React.createElement()** calls.
+ ```jsx
+ const element = <h1>Hello, Suman!</h1>;
+ ```
+ - Transpiled by BAbel into:-
+ - **JavaScript:-**
+ ```js
+ const element = React.createElement('h1',null,'Hello,Suman!');
+ ```
