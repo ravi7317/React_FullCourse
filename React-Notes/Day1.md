@@ -89,5 +89,33 @@ const element = <h1>Hello, JSX!</h1>;
   }
   Export default Greeting;
   ```
+# 5. Reusable Component:-
+- **Person.jsx**
+```jsx
+const Person = () =>{
+    return (
+        <>
+        <h1>Hello , suman </h1>
+        </>
+    );
+};
+export default Person
+```
+- **App..jsx**
+ ```jsx
+ import Person from "./Person;
+ const App = () =>{
+    return (
+        <>
+        <Person/>
+        <Pesron/>
+        <Pesron/>
+    );
+ };
+ export default App;
+```
 
-
+# Output
+Hello, Suman
+Hello, Suman
+Hello, Suman
