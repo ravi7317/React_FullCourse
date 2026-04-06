@@ -20,9 +20,9 @@
 
 
 # 2. What is React.JS
- - 1. React.js is a popular javaScript library framework used for building user interfaces, especially for simgle - page application
+ -  React.js is a popular javaScript library framework used for building user interfaces, especially for simgle - page application
 
- - 2. It Allow developers to create reuable comonents, manage the state of application efficiently.
- - 3. React has Strong Echosystem provides many tools & community support.
- - 4. React is Develpoed & maintain by Facebook.
-  - 5. react also offer mobile app development through react native
+ -  It Allow developers to create reuable comonents, manage the state of application efficiently.
+ -  React has Strong Echosystem provides many tools & community support.
+ -  React is Develpoed & maintain by Facebook.
+  -  react also offer mobile app development through react native
