@@ -26,3 +26,15 @@
  -  React has Strong Echosystem provides many tools & community support.
  -  React is Develpoed & maintain by Facebook.
   -  react also offer mobile app development through react native
+
+# 3. Installation Step:-
+- Install Node.js & npm (node package Manager)
+- Create A folder **(My _React_App)**
+- Navigate to folder **{cd My_React_App}** & Open terminal
+- Run Command:- **npm create vite@latest**
+- Type "." & enter 
+- Choose a framework:- **React**
+- Select a vaient:- **JavaScript**
+- npm install or npm i
+- Then Run **npm run dev**
+- Open any browser & run :- [Google](**http://localhost:5173**)
