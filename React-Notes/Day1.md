@@ -62,3 +62,29 @@ const element = <h1>Hello, JSX!</h1>;
  ```js
  const element = React.createElement('h1',null,'Hello,Suman!');
  ```
+ ## 4. Fragment
+ - A react fragment is a built-in component taht allow you to group multiple child element without adding an extra node to the DOM this is essential because React component mus return single root element
+
+ # Compnent Creation & Call:-
+ ### 1. Component:-
+ - In React.js Component are the building block that allow  you to split the UI into independent & resuable pices.
+ **OR**
+ - A component in React is a JavaSript Function or class that optionally accept props & return a React element that describe how a section at the UI should appear
+
+ ### 2. Type of Components:- 
+ ```jsx
+ imprt React from 'react';
+ const Creating = ()={
+    return <h1>Hello, Suman! </h1>;
+    }```
+
+  - Export default Greeting
+  - Class Component (Or older style)
+  ```jsx
+  import React{component} from 'react';
+  class Greeting extends component{
+    render(){return <h1> Hello, Suman}</h1>
+  }
+  Export default Greeting;
+  ```
+
