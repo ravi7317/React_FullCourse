@@ -1,5 +1,6 @@
 import React from 'react'
 import Product from './component/Product'
+import Item from './component/Item'
 
 // const App = () => {
 //   const name = "suman";
@@ -32,7 +33,8 @@ const App = () =>{
   return (
     <>
     <Product name="iphone-16" price={70000} color="blue" data ={obj}/>
-    <Product name="iphone-17" price={80000} color="blue" data = {obj}/>
+    <Product name="iphone-17" price={80000} color="blue" data />
+    <Item/>
   </>
   )
 }
