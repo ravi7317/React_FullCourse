@@ -109,3 +109,66 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.container {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  text-align: left;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: var(--shadow);
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+}
+
+.product-card h1 {
+  font-size: 28px;
+  margin: 0 0 8px;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin: 4px 0;
+  color: var(--text);
+}
+
+.product-specs {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 16px;
+}
+
+.product-specs p {
+  font-family: var(--mono);
+  background: var(--code-bg);
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.item-status {
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  border-radius: 12px;
+  padding: 24px;
+  text-align: left;
+}
+
+.driving-status h1, .account-status h1 {
+  font-size: 20px;
+  margin: 8px 0;
+}
+
